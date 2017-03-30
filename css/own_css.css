@@ -1,12 +1,20 @@
 .jumbotron {
     margin-bottom: 0px;
-    background-color: aqua;
+    background-color: #74AFAD;
+}
+
+h1 {
+    color: #EBEBE9 !important;
+}
+
+body {
+    background-color: #ECECEA;
 }
 
 #warning_strip {
-    height: 20px;
+    height: 15px;
     width: 100%;
-    background-image: url("img/warning.png");
+    background-image: url("../img/warning.png");
     background-repeat: repeat-x;
     background-position: 50% 0%;
     background-size: 400px 20px;
@@ -15,13 +23,13 @@
 .navbar .vertical-divider {
     height: 50px;
     margin: 0 12px 0 15px;
-    border-right: 1px solid #cccccc;
-    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #588DA0;
+    border-left: 1px solid #659B9A;
 }
 
 .navbar-inverse .vertical-divider {
-    border-right-color: #222222;
-    border-left-color: #111111;
+    border-right-color: #558C89;
+    border-left-color: #70ABAA;
 }
 
 @media (max-width: 767px) {
@@ -33,41 +41,41 @@
 
 /* navbar */
 .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
+    background-color: #558C89;
+    border-color: #74AFAD;
 }
 /* title */
 .navbar-default .navbar-brand {
-    color: #777;
+    color: #ECECEA;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
+    color: #444;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #ECECEA;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+    color: #444;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
+    color: #444;
+    background-color: #70ABAA;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: #555;
-    background-color: #D5D5D5;
+    background-color: #70ABAA;
 }
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
+    border-top-color: #444;
+    border-bottom-color: #333;
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
@@ -77,26 +85,37 @@
 .navbar-default .navbar-nav > .open > a .caret, 
 .navbar-default .navbar-nav > .open > a:hover .caret, 
 .navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: #555;
-    border-bottom-color: #555;
+    border-top-color: #333;
+    border-bottom-color: #444;
 }
+.dropdown-menu {
+    background-color: #74AFAD;
+}
+.dropdown-menu > li > a {
+    color: #ECECEA;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #4b7777;
+}
+
 /* mobile version */
 .navbar-default .navbar-toggle {
-    border-color: #DDD;
+    border-color: #74AFAD;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
+    background-color: #70ABAA;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
+        color: #ECECEA;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
+        color: #444;
     }
 }

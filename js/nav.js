@@ -1,6 +1,7 @@
 $(function(){
     $("#include-header").load("header.html");
-    $("#include-nav").load("nav.html"); 
+    $("#include-nav").load("nav.html");
+    $("#include-footer").load("footer.html");
 });
 
 $(function() {
