@@ -1,8 +1,8 @@
 :root{
 
-    --light-color:#DDD;
+    --light-color:#EAEAEA;
     --red-color:#d36582;
-    --light-color-dark:#BBB;
+    --light-color-dark:#D5D5D5;
 }
 
 * {
@@ -208,4 +208,15 @@ h1 {
 }
 .payments {
 	font-size: 1.5em;	
+}
+
+#footer_inp_logo {
+    display: inline;
+    width: 6em;
+    margin: 0px 5px 0px 5px;
+}
+
+.footer-bottom > div {
+    padding-left: 30px;
+    padding-right: 30px;
 }
