@@ -6,6 +6,11 @@
     --light-color-dark:#c9a690;
 }
 
+* {
+    font-size: 16px;
+    line-height: 2;
+}
+
 .jumbotron {
     margin-bottom: 0px;
     background-color: var(--light-color);
