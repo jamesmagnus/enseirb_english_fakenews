@@ -1,9 +1,8 @@
 :root{
-    --main-color:#2b59c3;
-    --main-color-dark:#253c78;
-    --light-color:#f8eedf;
+
+    --light-color:#DDD;
     --red-color:#d36582;
-    --light-color-dark:#c9a690;
+    --light-color-dark:#BBB;
 }
 
 .jumbotron {
