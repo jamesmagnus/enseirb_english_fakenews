@@ -237,4 +237,15 @@ h1 {
     font-size: 1.3em;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 20px;
+    border-top-style: dotted;
+    border-top-width: 2px;
+}
+
+.img-shop > div {
+    margin-bottom: 4%;
+}
+
+.price {
+    font-weight: bold;
 }
